@@ -1,0 +1,17 @@
+{
+	"name": "poop-log",
+	"version": "1.0.0",
+	"description": "うんちログ - 1歳の娘の排便状況を保護者がスマートフォンから簡単に記録・確認できるWEBアプリ",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"test": "node tests/test.js"
+	},
+	"dependencies": {
+		"better-sqlite3": "^9.4.3",
+		"express": "^4.19.2"
+	},
+	"engines": {
+		"node": ">=18.0.0"
+	}
+}
